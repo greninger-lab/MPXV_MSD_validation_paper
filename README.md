@@ -1,9 +1,3 @@
----
-editor_options: 
-  markdown: 
-    wrap: 200
----
-
 This repository contains the code used for analysis and figures for the manuscript titled: **Differentiating Mpox Infection and Vaccination Using a Validated Multiplex Orthopoxvirus IgG Serology
 Assay**
 
