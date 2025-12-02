@@ -328,7 +328,7 @@ dat_MSD_wide$group_plot <- factor(dat_MSD_wide$group,
 #cohort labels
 group_labels <- c("MPXV - 10 mo", "MPXV - 2-6 mo", "Vaccine B - 12 mo",
                   "Vaccine A - 2 mo", "Vaccine A - 1 mo",  "Vaccine A - 0 mo", 
-                  expression(Rubella~IgG^"+"),  "Pediatric")
+                  "Rubella IgG+", "Pediatric")
 
 
 Fig_1C <- ggplot(dat_MSD_wide, aes(x = antigen_group, y = group_plot, fill = plot_p_value)) + 
@@ -448,7 +448,7 @@ rm(list = list[!list %in% c("gcv", "gmean", "gsd", "check_and_load", "dat_MSD_wi
 
 group_labels <- c(
   "pediatric" = "Pediatric",
-  "rubella IgG+" = "Rubella~IgG^'+'",
+  "rubella IgG+" = "Rubella~IgG*\"+\"",
   "Vaccine A - 0 month" = "Vaccine~A~'-'~0~mo",
   "Vaccine A - 1 month" = "Vaccine~A~'-'~1~mo",
   "Vaccine A - 2 month" = "Vaccine~A~'-'~2~mo",
