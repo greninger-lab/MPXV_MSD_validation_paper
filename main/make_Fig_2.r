@@ -134,7 +134,7 @@ x_axis_annotation <- tribble(
 
 #cohort labels
 cohort_labels <- c(
-  "pediatric", expression(rubella~IgG^"+"), 
+  "pediatric", "rubella IgG+", 
   "0 month", "1 month", "2 month", 
   "9 month", "2-6 month", "10 month")
 
@@ -290,6 +290,6 @@ Fig2 <- ggplot(dat_MSD %>% filter(!(Sample_ID == "P61" & MSD_dr_final == "not de
     legend.box.spacing = unit(0, "pt"),
   )
 
-ggsave("fig_output/Fig_2.pdf", height = 7, width = 5.5, unit = "in", device = cairo_pdf)
+#ggsave("fig_output/Fig_2.pdf", height = 7, width = 5.5, unit = "in", device = cairo_pdf)
 
 
