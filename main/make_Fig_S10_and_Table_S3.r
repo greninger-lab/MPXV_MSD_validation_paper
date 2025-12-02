@@ -235,8 +235,8 @@ test_pairs$factor_2_virus_cohort <-
 
 labels <- c("<span style = 'color:#1F78B4;'>pediatric</span>", 
             "<span style = 'color:#B15928;'>pediatric</span>", 
-            "<span style = 'color:#1F78B4;'>rubella IgG<sup>+</sup></span>",
-            "<span style = 'color:#B15928;'>rubella IgG<sup>+</sup></span>", 
+            "<span style = 'color:#1F78B4;'>rubella IgG+</span>",
+            "<span style = 'color:#B15928;'>rubella IgG+</span>", 
             "<span style = 'color:#1F78B4;'>Vac A - 0</span>",
             "<span style = 'color:#B15928;'>Vac A - 0</span>", 
             "<span style = 'color:#1F78B4;'>Vac A - 1 mo</span>",
