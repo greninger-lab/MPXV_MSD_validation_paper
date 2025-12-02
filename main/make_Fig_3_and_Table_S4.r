@@ -260,7 +260,7 @@ wb_save(wb, "fig_output/Table_S4.xlsx")
 
 #cohort labels
 group_labels <- c(
-  "pediatric", expression(rubella~IgG^"+"),
+  "pediatric", "rubella IgG+",
   "Vaccine A - 0 mo", "Vaccine A - 1 mo", "Vaccine A - 2 mo",
   "Vaccine B - 9 mo", "MPXV - 2-6 mo", "MPXV - 10 mo")
 
