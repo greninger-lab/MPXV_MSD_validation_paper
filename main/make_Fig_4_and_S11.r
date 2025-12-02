@@ -32,7 +32,7 @@ groups <- tibble(
     "Vaccine B - 9 month", "MPXV - 2-6 month", "MPXV - 10 month"),
   p_labels = c(
     "pediatric" = "Pediatric",
-    "rubella IgG+" = "Rubella~IgG^'+'",
+    "rubella IgG+" = "Rubella~IgG*\"+\"",
     "Vaccine A - 0 month" = "Vaccine~A~'-'~0~mo",
     "Vaccine A - 1 month" = "Vaccine~A~'-'~1~mo",
     "Vaccine A - 2 month" = "Vaccine~A~'-'~2~mo",
@@ -44,7 +44,7 @@ groups <- tibble(
 )
 
 #cohort labels for x-axis, same order as groups
-cohort_labels = c("Pediatric", expression(Rubella~IgG^"+"), "0 mo", "1 mo", "2 mo", "9 mo", "2-6 mo", "10 mo")
+cohort_labels = c("Pediatric", "Rubella IgG+", "0 mo", "1 mo", "2 mo", "9 mo", "2-6 mo", "10 mo")
 
 # prep neut results
 dat_neut <- dat_MSD %>%
@@ -370,7 +370,7 @@ group_labels <- c(
   "Vaccine A - 2 month" = "Vaccine~A~'-'~2~mo",
   "Vaccine A - 1 month" = "Vaccine~A~'-'~1~mo",
   "Vaccine A - 0 month" = "Vaccine~A~'-'~0~mo",
-  "rubella IgG+" = "Rubella~IgG^'+'",
+  "rubella IgG+" = "Rubella~IgG*\"+\"",
   "pediatric" = "Pediatric")
 
 #Set the order of group levels
