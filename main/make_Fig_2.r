@@ -290,6 +290,6 @@ Fig2 <- ggplot(dat_MSD %>% filter(!(Sample_ID == "P61" & MSD_dr_final == "not de
     legend.box.spacing = unit(0, "pt"),
   )
 
-#ggsave("fig_output/Fig_2.pdf", height = 7, width = 5.5, unit = "in", device = cairo_pdf)
+ggsave("fig_output/Fig_2.pdf", height = 7, width = 5.5, unit = "in", device = cairo_pdf)
 
 
