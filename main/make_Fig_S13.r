@@ -104,7 +104,7 @@ total_rub <- dat_neut_MSD %>% filter(group == "rubella IgG+") %>% pull(Sample_ID
 facet_label_parsed <- tribble(
   ~group, ~label,
   "pediatric", paste0(number_ped, "/", total_ped, '~"specimens in pediatric group exceed the Youden\'s threshold for at least one antigen"'),
-  "rubella IgG+", paste0(number_rub, "/", total_rub, '~"specimens in " * rubella~IgG^"+" * " group exceed the Youden\'s threshold for at least one antigen"')
+  "rubella IgG+", paste0(number_rub, "/", total_rub, '~"specimens in rubella IgG+ group exceed the Youden\'s threshold for at least one antigen"')
 )
 
 
